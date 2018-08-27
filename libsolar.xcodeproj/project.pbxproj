@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6734701921339F2C0070E767 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700221339F2A0070E767 /* Util.cpp */; };
+		6734701A21339F2C0070E767 /* graphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700321339F2A0070E767 /* graphic.cpp */; };
+		6734701B21339F2C0070E767 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700421339F2A0070E767 /* Exception.cpp */; };
+		6734701C21339F2C0070E767 /* Exception.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734700521339F2A0070E767 /* Exception.hpp */; };
+		6734701D21339F2C0070E767 /* iniplus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700621339F2B0070E767 /* iniplus.cpp */; };
+		6734701E21339F2C0070E767 /* jpge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700721339F2B0070E767 /* jpge.cpp */; };
+		6734701F21339F2C0070E767 /* fdstream.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734700821339F2B0070E767 /* fdstream.hpp */; };
+		6734702021339F2C0070E767 /* lzh.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734700921339F2B0070E767 /* lzh.hpp */; };
+		6734702121339F2C0070E767 /* Sqlite3DBAccess.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734700B21339F2B0070E767 /* Sqlite3DBAccess.hpp */; };
+		6734702221339F2C0070E767 /* graphic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734700C21339F2B0070E767 /* graphic.hpp */; };
+		6734702321339F2C0070E767 /* jpge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6734700E21339F2B0070E767 /* jpge.h */; };
+		6734702421339F2C0070E767 /* Sqlite3DBAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734700F21339F2B0070E767 /* Sqlite3DBAccess.cpp */; };
+		6734702521339F2C0070E767 /* DBAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701021339F2B0070E767 /* DBAccess.cpp */; };
+		6734702621339F2C0070E767 /* iniplus.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701121339F2B0070E767 /* iniplus.hpp */; };
+		6734702721339F2C0070E767 /* lzh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701221339F2B0070E767 /* lzh.cpp */; };
+		6734702821339F2C0070E767 /* DBAccess.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701321339F2B0070E767 /* DBAccess.hpp */; };
+		6734702921339F2C0070E767 /* SelectData.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701421339F2B0070E767 /* SelectData.hpp */; };
+		6734702A21339F2C0070E767 /* SystemExec.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701521339F2C0070E767 /* SystemExec.hpp */; };
+		6734702B21339F2C0070E767 /* Util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701621339F2C0070E767 /* Util.hpp */; };
+		6734702C21339F2C0070E767 /* SelectData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701721339F2C0070E767 /* SelectData.cpp */; };
+		6734702D21339F2C0070E767 /* SystemExec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701821339F2C0070E767 /* SystemExec.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67346FFB21339ED40070E767 /* liblibsolar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibsolar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6734700221339F2A0070E767 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		6734700321339F2A0070E767 /* graphic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphic.cpp; sourceTree = "<group>"; };
+		6734700421339F2A0070E767 /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		6734700521339F2A0070E767 /* Exception.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Exception.hpp; sourceTree = "<group>"; };
+		6734700621339F2B0070E767 /* iniplus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iniplus.cpp; sourceTree = "<group>"; };
+		6734700721339F2B0070E767 /* jpge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jpge.cpp; sourceTree = "<group>"; };
+		6734700821339F2B0070E767 /* fdstream.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fdstream.hpp; sourceTree = "<group>"; };
+		6734700921339F2B0070E767 /* lzh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lzh.hpp; sourceTree = "<group>"; };
+		6734700A21339F2B0070E767 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6734700B21339F2B0070E767 /* Sqlite3DBAccess.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sqlite3DBAccess.hpp; sourceTree = "<group>"; };
+		6734700C21339F2B0070E767 /* graphic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = graphic.hpp; sourceTree = "<group>"; };
+		6734700D21339F2B0070E767 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6734700E21339F2B0070E767 /* jpge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpge.h; sourceTree = "<group>"; };
+		6734700F21339F2B0070E767 /* Sqlite3DBAccess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sqlite3DBAccess.cpp; sourceTree = "<group>"; };
+		6734701021339F2B0070E767 /* DBAccess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBAccess.cpp; sourceTree = "<group>"; };
+		6734701121339F2B0070E767 /* iniplus.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iniplus.hpp; sourceTree = "<group>"; };
+		6734701221339F2B0070E767 /* lzh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lzh.cpp; sourceTree = "<group>"; };
+		6734701321339F2B0070E767 /* DBAccess.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DBAccess.hpp; sourceTree = "<group>"; };
+		6734701421339F2B0070E767 /* SelectData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SelectData.hpp; sourceTree = "<group>"; };
+		6734701521339F2C0070E767 /* SystemExec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SystemExec.hpp; sourceTree = "<group>"; };
+		6734701621339F2C0070E767 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
+		6734701721339F2C0070E767 /* SelectData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectData.cpp; sourceTree = "<group>"; };
+		6734701821339F2C0070E767 /* SystemExec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SystemExec.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67346FF821339ED40070E767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67346FF221339ED40070E767 = {
+			isa = PBXGroup;
+			children = (
+				6734701021339F2B0070E767 /* DBAccess.cpp */,
+				6734701321339F2B0070E767 /* DBAccess.hpp */,
+				6734700421339F2A0070E767 /* Exception.cpp */,
+				6734700521339F2A0070E767 /* Exception.hpp */,
+				6734700821339F2B0070E767 /* fdstream.hpp */,
+				6734700321339F2A0070E767 /* graphic.cpp */,
+				6734700C21339F2B0070E767 /* graphic.hpp */,
+				6734700621339F2B0070E767 /* iniplus.cpp */,
+				6734701121339F2B0070E767 /* iniplus.hpp */,
+				6734700721339F2B0070E767 /* jpge.cpp */,
+				6734700E21339F2B0070E767 /* jpge.h */,
+				6734700D21339F2B0070E767 /* LICENSE */,
+				6734701221339F2B0070E767 /* lzh.cpp */,
+				6734700921339F2B0070E767 /* lzh.hpp */,
+				6734700A21339F2B0070E767 /* README.md */,
+				6734701721339F2C0070E767 /* SelectData.cpp */,
+				6734701421339F2B0070E767 /* SelectData.hpp */,
+				6734700F21339F2B0070E767 /* Sqlite3DBAccess.cpp */,
+				6734700B21339F2B0070E767 /* Sqlite3DBAccess.hpp */,
+				6734701821339F2C0070E767 /* SystemExec.cpp */,
+				6734701521339F2C0070E767 /* SystemExec.hpp */,
+				6734700221339F2A0070E767 /* Util.cpp */,
+				6734701621339F2C0070E767 /* Util.hpp */,
+				67346FFC21339ED40070E767 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67346FFC21339ED40070E767 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67346FFB21339ED40070E767 /* liblibsolar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67346FF921339ED40070E767 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6734702021339F2C0070E767 /* lzh.hpp in Headers */,
+				6734701F21339F2C0070E767 /* fdstream.hpp in Headers */,
+				6734702821339F2C0070E767 /* DBAccess.hpp in Headers */,
+				6734702121339F2C0070E767 /* Sqlite3DBAccess.hpp in Headers */,
+				6734702A21339F2C0070E767 /* SystemExec.hpp in Headers */,
+				6734702921339F2C0070E767 /* SelectData.hpp in Headers */,
+				6734701C21339F2C0070E767 /* Exception.hpp in Headers */,
+				6734702B21339F2C0070E767 /* Util.hpp in Headers */,
+				6734702621339F2C0070E767 /* iniplus.hpp in Headers */,
+				6734702321339F2C0070E767 /* jpge.h in Headers */,
+				6734702221339F2C0070E767 /* graphic.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67346FFA21339ED40070E767 /* libsolar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67346FFF21339ED40070E767 /* Build configuration list for PBXNativeTarget "libsolar" */;
+			buildPhases = (
+				67346FF721339ED40070E767 /* Sources */,
+				67346FF821339ED40070E767 /* Frameworks */,
+				67346FF921339ED40070E767 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libsolar;
+			productName = libsolar;
+			productReference = 67346FFB21339ED40070E767 /* liblibsolar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67346FF321339ED40070E767 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "GUSTAVO CAMPOS";
+				TargetAttributes = {
+					67346FFA21339ED40070E767 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 67346FF621339ED40070E767 /* Build configuration list for PBXProject "libsolar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67346FF221339ED40070E767;
+			productRefGroup = 67346FFC21339ED40070E767 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67346FFA21339ED40070E767 /* libsolar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67346FF721339ED40070E767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6734702C21339F2C0070E767 /* SelectData.cpp in Sources */,
+				6734701D21339F2C0070E767 /* iniplus.cpp in Sources */,
+				6734702421339F2C0070E767 /* Sqlite3DBAccess.cpp in Sources */,
+				6734701A21339F2C0070E767 /* graphic.cpp in Sources */,
+				6734701B21339F2C0070E767 /* Exception.cpp in Sources */,
+				6734702521339F2C0070E767 /* DBAccess.cpp in Sources */,
+				6734701E21339F2C0070E767 /* jpge.cpp in Sources */,
+				6734702721339F2C0070E767 /* lzh.cpp in Sources */,
+				6734701921339F2C0070E767 /* Util.cpp in Sources */,
+				6734702D21339F2C0070E767 /* SystemExec.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67346FFD21339ED40070E767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		67346FFE21339ED40070E767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6734700021339ED40070E767 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6734700121339ED40070E767 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67346FF621339ED40070E767 /* Build configuration list for PBXProject "libsolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67346FFD21339ED40070E767 /* Debug */,
+				67346FFE21339ED40070E767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67346FFF21339ED40070E767 /* Build configuration list for PBXNativeTarget "libsolar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6734700021339ED40070E767 /* Debug */,
+				6734700121339ED40070E767 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67346FF321339ED40070E767 /* Project object */;
+}
