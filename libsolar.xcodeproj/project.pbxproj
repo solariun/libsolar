@@ -28,6 +28,8 @@
 		6734702B21339F2C0070E767 /* Util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6734701621339F2C0070E767 /* Util.hpp */; };
 		6734702C21339F2C0070E767 /* SelectData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701721339F2C0070E767 /* SelectData.cpp */; };
 		6734702D21339F2C0070E767 /* SystemExec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6734701821339F2C0070E767 /* SystemExec.cpp */; };
+		674AEF4D2134DAA500587E3C /* SHA1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 674AEF4B2134DAA500587E3C /* SHA1.cpp */; };
+		674AEF4E2134DAA500587E3C /* SHA1.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 674AEF4C2134DAA500587E3C /* SHA1.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,8 @@
 		6734701621339F2C0070E767 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
 		6734701721339F2C0070E767 /* SelectData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SelectData.cpp; sourceTree = "<group>"; };
 		6734701821339F2C0070E767 /* SystemExec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SystemExec.cpp; sourceTree = "<group>"; };
+		674AEF4B2134DAA500587E3C /* SHA1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SHA1.cpp; sourceTree = "<group>"; };
+		674AEF4C2134DAA500587E3C /* SHA1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SHA1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		67346FF221339ED40070E767 = {
 			isa = PBXGroup;
 			children = (
+				674AEF4B2134DAA500587E3C /* SHA1.cpp */,
+				674AEF4C2134DAA500587E3C /* SHA1.hpp */,
 				6734701021339F2B0070E767 /* DBAccess.cpp */,
 				6734701321339F2B0070E767 /* DBAccess.hpp */,
 				6734700421339F2A0070E767 /* Exception.cpp */,
@@ -120,6 +126,7 @@
 				6734702A21339F2C0070E767 /* SystemExec.hpp in Headers */,
 				6734702921339F2C0070E767 /* SelectData.hpp in Headers */,
 				6734701C21339F2C0070E767 /* Exception.hpp in Headers */,
+				674AEF4E2134DAA500587E3C /* SHA1.hpp in Headers */,
 				6734702B21339F2C0070E767 /* Util.hpp in Headers */,
 				6734702621339F2C0070E767 /* iniplus.hpp in Headers */,
 				6734702321339F2C0070E767 /* jpge.h in Headers */,
@@ -191,6 +198,7 @@
 				6734702521339F2C0070E767 /* DBAccess.cpp in Sources */,
 				6734701E21339F2C0070E767 /* jpge.cpp in Sources */,
 				6734702721339F2C0070E767 /* lzh.cpp in Sources */,
+				674AEF4D2134DAA500587E3C /* SHA1.cpp in Sources */,
 				6734701921339F2C0070E767 /* Util.cpp in Sources */,
 				6734702D21339F2C0070E767 /* SystemExec.cpp in Sources */,
 			);
